@@ -1,11 +1,11 @@
 import React from "react";
-import Gallery1 from "../../images/gallery1.png";
-import Gallery2 from "../../images/gallery2.png";
-import Gallery3 from "../../images/gallery3.png";
-import Gallery4 from "../../images/gallery4.png";
-import Gallery5 from "../../images/gallery5.png";
-import Gallery6 from "../../images/gallery6.png";
-import Gallery7 from "../../images/gallery7.png";
+import Gallery1 from "../../images/Gallery1.png";
+import Gallery3 from "../../images/Gallery3.png";
+import Gallery2 from "../../images/Gallery2.png";
+import Gallery4 from "../../images/Gallery4.png";
+import Gallery5 from "../../images/Gallery5.png";
+import Gallery6 from "../../images/Gallery6.png";
+import Gallery7 from "../../images/Gallery7.png";
 
 const Gallery = () => {
   return (
