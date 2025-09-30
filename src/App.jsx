@@ -6,6 +6,7 @@ import Cards from './Components/Cards/Cards'
 import Marquee from './Components/Marquee/Marquee'
 import Gallery from './Components/Gallery/Gallery'
 import Faqs from './Components/Faqs/Faqs'
+// import Roadmap1 from './Components/Roadmap/Roadmap1'
 import Roadmap from './Components/Roadmap/Roadmap'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Gallery />
     <Roadmap />
     <Faqs />
+    {/* <Roadmap1 /> */}
 
     {/* <p className='bg-red-500'>Vite + React</p> */}
     </div>
