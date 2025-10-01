@@ -113,11 +113,11 @@ const Roadmap = () => {
             Road<span className="text-[var(--color-primary)]">map</span>
           </h1>
           <p
-            className="text-[14px] md:text-[24px] font-normal leading-[100%] tracking-[0%] 
+            className="text-[18px] md:text-[24px] font-normal leading-[100%] tracking-[0%] 
       text-[var(--color-text)] text-center"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            reprehenderit vel aspernatur?
+            Lorem ipsum dolor sit. Laudantium
+            reprehenderit aspernatur?
           </p>
         </div>
 
@@ -126,7 +126,7 @@ const Roadmap = () => {
           {currentPage === 0 && (
             <>
               {/* phase 1 */}
-              <div className="relative w-full z-10 mt-20">
+              <div className="relative w-full z-10 mt-1 sm:mt-20">
                 <div
                   className="bg-[var(--color-secondary)] sm:max-w-[300px] lg:max-w-[562px] md:max-w-[420px] h-[57px] 
           flex items-center w-full"
@@ -156,8 +156,8 @@ const Roadmap = () => {
                   <img src={Men1} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[100px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]">
@@ -170,7 +170,7 @@ const Roadmap = () => {
               </div>
 
               {/* phase 2 */}
-              <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+              <div className="relative w-full z-12 mt-8 sm:mt-[139px]">
                 <div
                   className="bg-[var(--color-secondary)] w-full sm-:max-w-[300px] lg:max-w-[562px] md:max-w-[417px] h-[57px] 
           flex items-center md:ml-80 lg:ml-95 sm:ml-70 ml-0"
@@ -201,8 +201,8 @@ const Roadmap = () => {
                   <img src={Men2} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[170px] md:h-[170px] lg:h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 sm:mt-14 mt-5 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[135px] md:h-[170px] lg:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 sm:mt-14 mt-3 flex items-center px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)] md:ml-[330px] sm:ml-[260px] ">
@@ -216,7 +216,7 @@ const Roadmap = () => {
               </div>
 
               {/* phase 3 */}
-              <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+              <div className="relative w-full z-12 mt-8 sm:mt-[139px]">
                 <div
                   className="bg-[var(--color-secondary)] sm:max-w-[300px] lg:max-w-[562px] md:max-w-[420px] h-[57px] 
           flex items-center w-full"
@@ -246,8 +246,8 @@ const Roadmap = () => {
                   <img src={Men3} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[170px] sm:h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[125px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]">
@@ -261,7 +261,7 @@ const Roadmap = () => {
               </div>
 
               {/* phase 4*/}
-              <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+              <div className="relative w-full z-12 mt-8 sm:mt-[139px]">
                 <div
                   className="bg-[var(--color-secondary)] w-full sm-:max-w-[300px] lg:max-w-[562px] md:max-w-[417px] h-[57px] 
           flex items-center md:ml-80 lg:ml-95 sm:ml-70 ml-0"
@@ -291,8 +291,8 @@ const Roadmap = () => {
                   <img src={Men4} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[100px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]  sm:ml-[260px] md:ml-[330px] ">
@@ -309,7 +309,7 @@ const Roadmap = () => {
           {currentPage === 1 && (
             <>
               {/* phase 5 */}
-              <div className="relative w-full z-12 mt-20 ">
+              <div className="relative w-full z-10 mt-1 sm:mt-20">
                 <div
                   className="bg-[var(--color-secondary)] sm:max-w-[300px] lg:max-w-[562px] md:max-w-[420px] h-[57px] 
           flex items-center w-full"
@@ -339,8 +339,8 @@ const Roadmap = () => {
                   <img src={Men3} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[170px] sm:h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[137px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]">
@@ -354,7 +354,7 @@ const Roadmap = () => {
               </div>
 
               {/* phase 6 */}
-              <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+              <div className="relative w-full z-12 mt-8 sm:mt-[139px]">
                 <div
                   className="bg-[var(--color-secondary)] w-full sm-:max-w-[300px] lg:max-w-[562px] md:max-w-[417px] h-[57px] 
           flex items-center md:ml-80 lg:ml-95 sm:ml-70 ml-0"
@@ -384,8 +384,8 @@ const Roadmap = () => {
                   <img src={Men4} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[100px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center  px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]  sm:ml-[260px] md:ml-[330px] ">
@@ -398,7 +398,7 @@ const Roadmap = () => {
               </div>
 
               {/* phase 7 */}
-             <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+             <div className="relative w-full z-12 mt-8 sm:mt-[139px]">
                 <div
                   className="bg-[var(--color-secondary)] sm:max-w-[300px] lg:max-w-[562px] md:max-w-[420px] h-[57px] 
           flex items-center w-full"
@@ -428,8 +428,8 @@ const Roadmap = () => {
                   <img src={Men3} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[170px] sm:h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[135px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]">
@@ -443,7 +443,7 @@ const Roadmap = () => {
               </div>
 
               {/* phase 8 */}
-              <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+              <div className="relative w-full z-12 mt-8 sm:mt-[139px]">
                 <div
                   className="bg-[var(--color-secondary)] w-full sm-:max-w-[300px] lg:max-w-[562px] md:max-w-[417px] h-[57px] 
           flex items-center md:ml-80 lg:ml-95 sm:ml-70 ml-0"
@@ -473,8 +473,8 @@ const Roadmap = () => {
                   <img src={Men4} alt="" />
                 </div>
                 <div
-                  className="max-w-[1248px] h-[140px] bg-[var(--color-primary)]
-          top-[248px] left-0 right-0 mt-5 sm:mt-14 flex items-center px-22 z-32"
+                  className="max-w-[1248px] h-[100px] sm:h-[140px] bg-[var(--color-primary)]
+          top-[248px] left-0 right-0 mt-4 sm:mt-14 flex items-center  px-10 sm:px-22 z-32"
                 >
                   <ul class="list-disc font-normal text-[18px] sm:text-[20px] leading-[100%]
                tracking-[0%] text-[var(--color-text)]  sm:ml-[260px] md:ml-[330px] ">

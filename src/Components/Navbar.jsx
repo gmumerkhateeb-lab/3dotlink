@@ -17,8 +17,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="  Navbar fixed h-[120px] top-0 left-0 w-full z-50 bg-black">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <nav className="  Navbar fixed h-[90px] sm:h-[120px] top-0 left-0 w-full z-50 bg-black">
+      <div className="max-w-7xl mx-auto flex  flex-row-reverse lg:flex-row items-center justify-between px-6 py-4">
         {/* Mobile: Hamburger Left */}
         <div className="lg:hidden">
           <button
@@ -38,7 +38,7 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="Logo"
-            className="h-[104px] w-[111px] object-contain"
+            className="h-[60px] sm:h-[80px] lg:h-[104px] w-[111px] object-contain"
           />
         </div>
 

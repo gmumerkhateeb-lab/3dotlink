@@ -36,7 +36,7 @@ const data = {
       a: "You can participate by registering on our platform and following the steps for wallet integration.",
     },
     {
-      q: "Is there a minimum investment requirement?",
+      q: "Is there a minimum investment required?",
       a: "Yes, the minimum requirement will be disclosed during the official announcement.",
     },
     {
@@ -124,7 +124,7 @@ const Faqs = () => {
         </p>
 
         {/* Tabs */}
-        <div className="flex gap-6 border-b border-gray-700 mb-6">
+        <div className="flex gap-2 sm:gap-6 border-b border-gray-700 mb-6">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -132,7 +132,7 @@ const Faqs = () => {
                 setActiveTab(tab);
                 setOpenIndex(null);
               }}
-              className={`text-[8px] sm:text-[20px] pb-2 relative font-zen text-[var(--color-text)] leading-[100%] tracking-[0%] ${
+              className={`text-[14px] sm:text-[20px] pb-2 relative font-zen text-[var(--color-text)] leading-[100%] tracking-[0%] ${
                 activeTab === tab ? "text-red-500 font-semibold" : "text-[var(--color-text)]"
               }`}
             >
@@ -149,7 +149,8 @@ const Faqs = () => {
           {data[activeTab].map((item, index) => (
             <div
               key={index}
-              className="bg-red-700/30 border border-red-700 rounded-md p-4 cursor-pointer max-w-[653px] min-h-[82px] max-h[180px]"
+              className="bg-red-700/30 border border-red-700 rounded-md p-4 cursor-pointer
+               max-w-[653px] min-h-[62px] max-h[180px]"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
               <div className="flex justify-between items-center">
@@ -167,7 +168,8 @@ const Faqs = () => {
                 )}
               </div>
               {openIndex === index && (
-                <p className="mt-2 text-[var(--color-text)] text-[12px] sm:text-[20px] leading-[100%] tracking-[0%]">{item.a}</p>
+                <p className="mt-2 text-[var(--color-text)] text-[12px] sm:text-[20px] 
+                leading-[100%] tracking-[0%]">{item.a}</p>
               )}
             </div>
           ))}

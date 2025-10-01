@@ -9,7 +9,7 @@ import cardhoverimage from "../../icons/cardhoverimage.png";
 
 const Cards = () => {
   return (
-    <div className="Cards w-full bg-black sm:py-12 lg:py-20 py-13">
+    <div className="Cards w-full bg-black sm:py-12 lg:py-20 pt-1 md:pt-13">
       <div
         className="max-w-[1418px] bg-black 
         p-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12 md:gap-8 mx-auto"
