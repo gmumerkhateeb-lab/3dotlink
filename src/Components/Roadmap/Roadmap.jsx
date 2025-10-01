@@ -309,7 +309,7 @@ const Roadmap = () => {
           {currentPage === 1 && (
             <>
               {/* phase 5 */}
-              <div className="relative w-full z-12 mt-20 sm:mt-[139px]">
+              <div className="relative w-full z-12 mt-20 ">
                 <div
                   className="bg-[var(--color-secondary)] sm:max-w-[300px] lg:max-w-[562px] md:max-w-[420px] h-[57px] 
           flex items-center w-full"
