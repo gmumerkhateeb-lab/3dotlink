@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-// import { IoPlayBack, IoPlayForward } from "react-icons/io5";
 import { GrCaretPrevious,GrCaretNext  } from "react-icons/gr";
 
 import Men1 from "../../images/Men1.png";
 import Men2 from "../../images/Men2.png";
 import Men3 from "../../images/Men3.png";
 import Men4 from "../../images/Men4.png";
-// import Roadmapbg from "../../images/roadmapbg.png";
 import RoadmapVideo from "../../Video/RoadmapVideo.mp4";
 import roadmapline from "../../icons/roadmapline.png";
 import roadmapsvg from "../../icons/roadmapsvg.png";

@@ -6,8 +6,8 @@ const Marquee = () => {
       <div className="flex flex-col items-center justify-center    h-full relative overflow-hidden space-y-[12px] lg:space-y-0">
         {/* First marquee */}
         <div
-          className="absolute xl:top-[30%] lg:top-[30%] sm:top-1/2 translate-y-12/26
-            w-[120%] left-1/2 -translate-x-1/2 
+          className="absolute xl:top-[30%] lg:top-[30%] sm:top-1/2 2xl:translate-y-12/26 translate-y-16/26
+            w-[120%] left-1/2 -translate-x-1/2   
             h-[110px] bg-[var(--color-primary)] text-[var(--color-text)] 
             flex items-center transform lg:-rotate-4 rotate-0 lg:absolute overflow-hidden"
         >
@@ -65,11 +65,11 @@ const Marquee = () => {
         }
 
         .animate-marquee-left {
-          animation: marquee-left 10s linear infinite;
+          animation: marquee-left 8s linear infinite;
         }
 
         .animate-marquee-right {
-          animation: marquee-right 10s linear infinite;
+          animation: marquee-right 8s linear infinite;
         }
       `}</style>
     </div>

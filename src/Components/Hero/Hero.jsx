@@ -10,9 +10,6 @@ const Hero = () => {
         backgroundImage: `url(${background})`,
       }}
     >
-      {/* Overlay (dark gradient) */}
-      {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
-
       {/* Hero Content */}
       <div className="relative  z-10 flex flex-col items-start justify-center h-full px-8 md:px-20 text-white">
         <h1

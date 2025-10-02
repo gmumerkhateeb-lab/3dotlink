@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-// import faq from "../../images/faq.png";
-// import faqbg from "../../images/faqbg.png";
-// import faqshadow from "../../images/faqshadow.png";
 import FaqVideo from "../../Video/FaqVideo.mp4";
 
 const tabs = ["General", "Pre ICO", "Token", "Client", "Legal"];
@@ -14,15 +11,15 @@ const data = {
       a: "Artists and creators can use our AI-integrated platform to generate NFTs by providing specific inputs such as desired features and elements for their digital artwork.",
     },
     {
-      q: "What kind of art does 3dotlink support?",
+      q: "What is the utility of the token?",
       a: "3dotlink supports all forms of digital artwork, including illustrations, animations, and generative art.",
     },
     {
-      q: "How are digital artworks verified for authenticity?",
+      q: "Is 3dotlink legally registered?",
       a: "Every artwork minted is recorded on blockchain with unique metadata for authenticity.",
     },
     {
-      q: "Can artists access and manage their collections on 3dotlink?",
+      q: "How can clients purchase NFTs?",
       a: "Yes, artists have full control to manage, edit, and sell their collections through their dashboard.",
     },
   ],
@@ -36,7 +33,7 @@ const data = {
       a: "You can participate by registering on our platform and following the steps for wallet integration.",
     },
     {
-      q: "Is there a minimum investment required?",
+      q: "How can clients purchase NFTs?",
       a: "Yes, the minimum requirement will be disclosed during the official announcement.",
     },
     {
@@ -108,12 +105,6 @@ const Faqs = () => {
     <div
       className="relative bg-black text-white py-2 md:py-16 px-8 flex flex-col lg:flex-row
        items-center sm:justify-between justify-center  max-w-[1774px] mx-auto gap-3 lg:gap-10 "
-      // style={{
-      //   backgroundImage: `url(${faqbg})`,
-      //   backgroundPosition: "left",
-      //   backgroundRepeat: "no-repeat",
-      //   backgroundSize: "1772px 680px",
-      // }}
     >
       {/* Left Side (FAQs) */}
       <div className="w-full lg:w-1/2 mt-6 md:mt-40 px-8">
@@ -149,22 +140,22 @@ const Faqs = () => {
           {data[activeTab].map((item, index) => (
             <div
               key={index}
-              className="bg-red-700/30 border border-red-700 rounded-md p-4 cursor-pointer
+              className="bg-red-600/60  rounded-md p-4 cursor-pointer
                max-w-[653px] min-h-[62px] max-h[180px]"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
               <div className="flex justify-between items-center">
 <h3
   className={`text-[14px] sm:text-[20px] leading-[100%] tracking-[0%] font-medium font-zen 
-    ${openIndex === index ? "text-[var(--color-primary)]" : "text-white"} 
+    ${openIndex === index ? "text-red-600/100" : "text-white"} 
     hover:text-[var(--color-primary)]`}
 >
   {item.q}
 </h3>
                 {openIndex === index ? (
-                  <FaChevronUp className="text-red-500" />
+                  <FaChevronUp className="text-red-600/100" />
                 ) : (
-                  <FaChevronDown className="text-red-500" />
+                  <FaChevronDown className="text-[var(--color-text)]" />
                 )}
               </div>
               {openIndex === index && (
@@ -192,8 +183,6 @@ const Faqs = () => {
           alt="FAQ Visual"
           className="h-[678px] max-w-[780px]"
         /> */}
-     
-      
     </div>
   );
 };

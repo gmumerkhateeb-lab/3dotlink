@@ -8,16 +8,9 @@
   /* bg-[var(--color-primary)] color use */
 
   --color-text: #FFFFFF;
-  /* text-[var(--color-text)] */
-
   --color-secondary: #FD16404D;
-  /* bg-[var(--color-secondary)] color use */
 }
-/* .maincontainer {
-  width: 100%;
-  max-width: 1400px; 
-  margin: 0 auto;   
-} */
+
  .font-poppins {
   font-family: 'Zen Dots', sans-serif;
 }
@@ -27,46 +20,6 @@
 
 /* marquee */
 
-/* Har 100px screen height pe alag margin-top */
-/* @media (max-height: 100px) {
-  .roadmap-step { margin-top: 10px !important; }
-}
-@media (max-height: 200px) {
-  .roadmap-step { margin-top: 20px !important; }
-}
-@media (max-height: 300px) {
-  .roadmap-step { margin-top: 30px !important; }
-}
-@media (max-height: 400px) {
-  .roadmap-step { margin-top: 40px !important; }
-}
-@media (max-height: 500px) {
-  .roadmap-step { margin-top: 50px !important; }
-}
-@media (max-height: 600px) {
-  .roadmap-step { margin-top: 60px !important; }
-}
-@media (max-height: 700px) {
-  .roadmap-step { margin-top: 70px !important; }
-}
-@media (max-height: 800px) {
-  .roadmap-step { margin-top: 80px !important; }
-}
-@media (max-height: 900px) {
-  .roadmap-step { margin-top: 90px !important; }
-}
-@media (max-height: 1000px) {
-  .roadmap-step { margin-top: 100px !important; }
-} */
-
-
-/* Har 100px screen width pe alag margin-top */
-/* @media (max-width: 1024px) {
-  .roadmap-step { margin-top: 100px !important; }
-} */
-/* @media (max-width: 1124px) {
-  .roadmap-step { margin-top: 200px !important; }
-} */
 @media (min-width: 1280px) and (max-width: 1350px) {
   .stepsvg1 {
     margin-top: 23% !important;
@@ -100,7 +53,6 @@
     margin-left: 2% !important;
   }
 }
-
 
 @media (min-width: 1351px) and (max-width: 1450px) {
   .stepsvg1 {
@@ -203,7 +155,6 @@
     margin-left: 2% !important;
   }
 }
-
 
 @media (min-width: 1651px) and (max-width: 1750px) {
   .stepsvg1 {
