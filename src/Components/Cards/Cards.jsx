@@ -62,7 +62,7 @@ const Cards = () => {
         ref={gridContainerRef} 
         onClick={handleContainerClick} 
         className="max-w-[1418px] bg-black px-20 my-10 lg:px-16
-        lg:py-8 py-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2
+        lg:py-8 py-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3
         gap-12 md:gap-25 mx-auto"
       >
         {/* Card 1 */}
